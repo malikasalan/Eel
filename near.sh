@@ -4,7 +4,7 @@ RPC_URL="https://near.lava.build/lava-referer-0d5622d2-8b25-4766-a79e-474a4d2f5d
 
 OUTPUT_DIR="logs"
 
-near_data=$(curl -s -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","method":"block","id":"HappyCuanAirdrop","params":{"finality":"final"}}' "$RPC_URL")
+near_data=$(curl -s -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","method":"block","id":"Biasakepantai","params":{"finality":"final"}}' "$RPC_URL")
 
 if [ $? -eq 0 ]; then
     if [ ! -d "$OUTPUT_DIR" ]; then
